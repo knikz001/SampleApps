@@ -9,7 +9,7 @@
 #include "Listener.h"
 #include <mutex>
 #include <condition_variable>
-#include <Vector>
+#include <vector>
 #include "napi.h"
 #include "NymiProvision.h"
 #include "TransientNymiBandInfo.h"

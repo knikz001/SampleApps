@@ -294,6 +294,7 @@
 				HEADER_SEARCH_PATHS = (
 					../../deps,
 					../../deps/json/src,
+					/Library/Frameworks/napi.framework/Headers,
 				);
 				LIBRARY_SEARCH_PATHS = ../../deps;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -311,6 +312,7 @@
 				HEADER_SEARCH_PATHS = (
 					../../deps,
 					../../deps/json/src,
+					/Library/Frameworks/napi.framework/Headers,
 				);
 				LIBRARY_SEARCH_PATHS = ../../deps;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
