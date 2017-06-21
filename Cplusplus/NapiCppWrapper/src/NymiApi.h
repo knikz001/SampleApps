@@ -58,7 +58,7 @@ private:
 	ProvisionStorage *storage;  // Provisioning file handler object
 	// Initialization and singleton pattern
 	static NymiApi *nApi;
-	NymiApi() { /*intentionally empty*/ };
+    NymiApi() : storage(nullptr) { /*intentionally empty*/ };
 	NymiApi(NymiApi &dontAllowCopy) { /*intentionally empty*/ }
     NymiApi(NymiApi &&dontAllowMove) { /*intentionally empty*/ }
 
